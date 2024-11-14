@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess the Picture</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Guess the Picture!</h1>
+    <div class="image-container">
+      <img id="gameImage" src="images/image1.jpg" alt="Game Image">
+    </div>
+    <div class="question-container">
+      <p id="question">What is this?</p>
+      <input type="text" id="answer" placeholder="Type your answer here">
+      <button id="submitBtn">Submit</button>
+    </div>
+    <div id="feedback"></div>
+    <div id="score-container">
+      <p id="score">Score: 0</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
